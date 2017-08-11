@@ -1,0 +1,27 @@
+@import "stylesheets/vendor/bootstrap";
+@import "common/common";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800|Source+Sans+Pro:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Merriweather+Sans:300,400|PT+Sans+Narrow:400,700|Pragati+Narrow:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+
+* {
+    border: none;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+}
+
+main {
+    padding: 50px 0;
+}
+
+.app {
+
+}
