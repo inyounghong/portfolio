@@ -15,7 +15,7 @@ module.exports = {
     loaders: [
        { test: /\.js$/, exclude: [/app\/lib/, /node_modules/], loader: 'ng-annotate!babel' },
        { test: /\.html$/, loader: 'html-loader' },
-       { test: /\.(scss|sass)$/, loader: 'style!css!sass' },
+       { test: /\.(scss|sass)$/, loader: 'style!css?sourceMap!resolve-url?sourceMap!sass?outputStyle=expanded&sourceMap=true&sourceMapContents=true' },
        { test: /\.css$/, loader: 'style!css' },
        { test: /\.(jpg|png|svg)$/, loader: 'file-loader?name=assets/[name].[hash].[ext]'},
     ]
