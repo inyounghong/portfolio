@@ -28,4 +28,20 @@
             color: #888;
         }
     }
+
+    .tag-wrap {
+        margin-top: 20px;
+    }
+
+    .tag {
+        border: 1px solid #ddd;
+        color: #444;
+        // background: $color;
+        // color: #fff;
+        padding: 2px 10px;
+        display: inline-block;
+        margin: 2px;
+        font-size: 13px;
+        font-weight: 400;
+    }
 }

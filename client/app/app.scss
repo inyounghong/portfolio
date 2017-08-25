@@ -1,5 +1,6 @@
 @import "stylesheets/variables";
 @import "stylesheets/vendor/bootstrap";
+// @import "stylesheets/vendor/font-awesome/scss/font-awesome";
 @import "common/common";
 @import "components/resume/resume";
 @import "components/about/about";
@@ -29,9 +30,9 @@ ul, ol {
 ul {
     list-style-type: square;
 
-    li {
-        margin: 10px 0;
-    }
+    // li {
+    //     margin: 10px 0;
+    // }
 
     &.squished li {
         margin: 0;

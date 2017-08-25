@@ -40,6 +40,15 @@
 
         a {
             color: #666;
+
+            &:hover, &:focus {
+                color: $color;
+                text-decoration: none;
+            }
+            &.active {
+                color: $color;
+                font-weight: 700;
+            }
         }
     }
 
