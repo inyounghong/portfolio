@@ -21,6 +21,7 @@ body {
     font-weight: 300;
     font-size: 15px;
     line-height: 1.4em;
+    color: #888;
 }
 
 ul, ol {
@@ -29,10 +30,6 @@ ul, ol {
 
 ul {
     list-style-type: square;
-
-    // li {
-    //     margin: 10px 0;
-    // }
 
     &.squished li {
         margin: 0;
@@ -47,8 +44,12 @@ ul {
 
 }
 
+.narrow {
+    max-width: 800px;
+}
+
 .wrap {
-    padding: 40px 4%;
+    padding: 40px 5%;
     // max-width: 900px;
 }
 
@@ -56,12 +57,16 @@ ul {
     margin-left: 300px;
 }
 
-h1 {
+.narrow h1 {
     font-size: 40px;
-    font-weight: 900;
+    font-weight: 700;
     font-family: "Montserrat";
-    margin-bottom: 20px;
+    margin: 10px 0 30px;
     // text-transform: uppercase;
-    letter-spacing: 1px;
     color: #444;
+}
+
+.narrow h2 {
+    color: #444;
+    font-weight: 600;
 }

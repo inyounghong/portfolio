@@ -1,15 +1,17 @@
 
 .experience {
     position: relative;
-    padding: 30px 30px 20px;
     background: #fff;
-    margin-bottom: 20px;
-    border: 1px solid #f4f4f4;
+    margin: 60px 0;
+
+    li {
+        margin: 5px 0;
+    }
 
     .image {
         position:absolute;
-        top: 40px;
-        left: 30px;
+        top: 0px;
+        left: 0px;
         max-width: 100px;
         img {
             max-width: 100%;
@@ -21,18 +23,17 @@
     }
 
     h4 {
-        font-family: Montserrat;
-        font-weight: bold;
+        @include small-caps;
+        text-transform: none;
         color: $color;
         margin-bottom: 10px;
+        line-height: 1.2em;
     }
 
     h3 {
         @include small-caps;
-        font-weight: 900;
         font-size: 20px;
         margin: 0 0 5px;
-        letter-spacing: 0.5px;
     }
 
     h5 {
