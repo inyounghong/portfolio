@@ -1,5 +1,6 @@
 @import "stylesheets/variables";
 @import "stylesheets/vendor/bootstrap";
+@import "components/sidebar/sidebar";
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800|Source+Sans+Pro:400,600,700');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i');
@@ -14,10 +15,11 @@
 }
 
 body {
-    font-family: "Open Sans";
+    font-family: "Source Sans Pro";
     font-weight: 300;
     font-size: 15px;
     background: #fafafa;
+    line-height: 1.4em;
 }
 
 ul, ol {
@@ -36,10 +38,6 @@ ul {
     }
 }
 
-main {
-    padding: 50px 0;
-}
-
 .center {
     text-align: center;
 }
@@ -48,23 +46,8 @@ main {
 
 }
 
-// Nav
 
-.navbar {
-    @include small-caps;
 
-    & *{
-        font-size: 15px!important;
-        letter-spacing: 1px;
-        color: #fff!important;
-    }
-
-    .navbar-brand {
-        // font-size: 15px;
-    }
-}
-
-.col-sm-6 {
-    padding-left: 40px;
-    padding-right: 40px;
+.main {
+    margin-left: 300px;
 }

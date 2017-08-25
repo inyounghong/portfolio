@@ -1,0 +1,31 @@
+.project-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 32%;
+    background: white;
+    // box-shadow: 0px 0px 3px #ccc;
+    margin-bottom: 40px;
+
+    .preview_image {
+        background-size: cover;
+        height: 200px;
+        background-position: center;
+    }
+
+    .details {
+        padding: 25px 20px 20px;
+
+        .name {
+            @include small-caps;
+            margin-bottom: 20px;
+        }
+
+        .slug {
+            color: #888;
+        }
+    }
+}
