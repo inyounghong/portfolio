@@ -5,12 +5,44 @@
 }
 
 .project {
+    cursor: pointer;
     width: 32%;
     background: white;
     // box-shadow: 0px 0px 3px #ccc;
+    border: 1px solid #eee;
     margin-bottom: 40px;
+    position: relative;
 
-    .preview_image {
+    &:hover {
+        .preview-image {
+        }
+        .preview-cover {
+            opacity: 0.9;
+        }
+    }
+
+    .preview-cover {
+        opacity: 0;
+        transition: opacity 0.2s;
+        background: $color;
+        color: #fff;
+        position: absolute;
+        height: 200px;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding-top: 90px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        .fa {
+            position: relative;
+            left: 2px;
+        }
+
+    }
+
+    .preview-image {
         background-size: cover;
         height: 200px;
         background-position: center;

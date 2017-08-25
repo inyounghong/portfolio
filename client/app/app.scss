@@ -20,12 +20,11 @@ body {
     font-family: "Source Sans Pro";
     font-weight: 300;
     font-size: 15px;
-    background: #fafafa;
     line-height: 1.4em;
 }
 
 ul, ol {
-    margin-left: 22px;
+    margin-left: 22px!important;
 }
 
 ul {
@@ -52,15 +51,6 @@ ul {
     padding: 40px 4%;
     // max-width: 900px;
 }
-
-.section {
-    max-width: 800px;
-    margin: 80px auto;
-
-
-
-}
-
 
 .main {
     margin-left: 300px;

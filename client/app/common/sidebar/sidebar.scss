@@ -36,15 +36,16 @@
 
         li {
             font-size: 16px;
-        }
-
-        a {
+            margin: 5px 0;
             color: #666;
+            transition: color 0.1s;
 
             &:hover, &:focus {
                 color: $color;
                 text-decoration: none;
+                cursor: pointer;
             }
+
             &.active {
                 color: $color;
                 font-weight: 700;
