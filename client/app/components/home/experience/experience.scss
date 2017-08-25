@@ -1,0 +1,52 @@
+
+.experience {
+    position: relative;
+    padding: 30px 30px 20px;
+    background: #fff;
+    margin-bottom: 20px;
+    border: 1px solid #f4f4f4;
+
+    .image {
+        position:absolute;
+        top: 40px;
+        left: 30px;
+        max-width: 100px;
+        img {
+            max-width: 100%;
+        }
+    }
+
+    .text {
+        margin-left: 140px;
+    }
+
+    h4 {
+        font-family: Montserrat;
+        font-weight: bold;
+        color: $color;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        @include small-caps;
+        font-weight: 900;
+        font-size: 20px;
+        margin: 0 0 5px;
+        letter-spacing: 0.5px;
+    }
+
+    h5 {
+        @include small-caps;
+        color: #888;
+        margin-top: 20px;
+    }
+
+    .fr {
+        float: right;
+        text-align: right;
+    }
+    .date {
+        @include small-caps;
+        color: #888;
+    }
+}

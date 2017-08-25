@@ -1,119 +1,51 @@
+@import "../../stylesheets/variables";
+@import "education/education";
+@import "experience/experience";
+@import "projects/projects";
+@import "top/top";
+
 $pink: #ec6f66;
 $orange: #f3a183;
 
-$color: #ffe14f;
-
-.top {
-    text-align: center;
-    padding-top: 100px;
-
-    .inline-wrap {
-        display: inline-block;
-        vertical-align: top;
-    }
-
-    #photo {
-        text-align: right;
-        padding-right: 30px;
-        position: relative;
-
-        img {
-            max-width: 100%;
-        }
-    }
-
-    #side-text {
-        padding-left: 80px;
-        padding-top: 30px;
-        position: relative;
-        text-align: left;
-
-        #big-letter {
-            font-family: "Playfair Display";
-            font-size: 450px;
-            font-weight: 900;
-            position: absolute;
-            text-align: center;
-            width: 100%;
-            color: $color;
-            z-index: -1;
-            line-height: 1em;
-            top: -100px;
-            left: -90px;
-        }
-
-        .title {
-            font-family: "Playfair Display";
-            font-weight: 900;
-            font-size: 70px;
-            line-height: 1em;
-        }
-
-        #sub {
-            margin-top: 25px;
-            font-size: 17px;
-            // font-family: "Pragati Narrow";
-            font-family: "Lato";
-
-            p {
-                margin: 0 0;
-            }
-        }
-    }
-
-
-
-
-
-
+.container {
+    max-width: 1000px;
+}
+.narrow {
+    max-width: 500px;
 }
 
 .tag {
     background: $color;
+    color: #fff;
     padding: 5px 10px;
     display: inline-block;
     position: absolute;
     bottom: 0;
     left: 10px;
-    font-weight: 700;
-    font-family: "Montserrat";
-    text-transform: uppercase;
+    @include small-caps;
     letter-spacing: 1px;
 }
 
-.section {
-    margin-top: 100px;
+.container h2 {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: "Montserrat";
+    margin-bottom: 20px;
+    // text-transform: uppercase;
+    letter-spacing: 1px;
 
-    .number-wrap {
-        z-index: -1;
-        position: absolute;
-        width: 300px;
-        left: -50px;
+    color: $color;
 
-        .number {
-            font-family: "Playfair Display";
-            font-weight: 700;
-            font-size: 300px;
-            color: $color;
-            position: absolute;
-            z-index: -1;
-            line-height: 1em;
-            top: -100px;
-        }
-        .number-text {
-            margin-top: 100px;
-            text-align: right;
-        }
-
-        h2 {
-            // border-top: 3px solid black;
-            // border-bottom: 2px solid black;
-            font-size: 50px;
-            font-weight: 900;
-            font-family: "Playfair Display";
-            font-style: italic;
-        }
+    span {
+        color: $color;
+        // display: block;
     }
+}
 
+.section {
+    max-width: 800px;
+    margin: 80px auto;
+
+    
 
 }
