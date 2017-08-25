@@ -18,6 +18,7 @@ module.exports = {
        { test: /\.(scss|sass)$/, loader: 'style!css?sourceMap!resolve-url?sourceMap!sass?outputStyle=expanded&sourceMap=true&sourceMapContents=true' },
        { test: /\.css$/, loader: 'style!css' },
        { test: /\.(jpg|png|svg)$/, loader: 'file-loader?name=assets/[name].[hash].[ext]'},
+       { test: /\.(png|woff|woff2|eot|ttf|svg)$/, loader: 'url-loader?limit=100000' }
     ]
   },
   plugins: [

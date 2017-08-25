@@ -1,3 +1,20 @@
-.contact {
-  color: red;
+.icon-wrap {
+
+    margin-left: -5px;
+    margin-right: -5px;
+
+    a {
+        display: inline-block;
+        padding: 24px 20px;
+        background: #f0f0f0;
+        // border-radius: 100%;
+        color: #888;
+        margin: 5px;
+        transition: background 0.1s, color 0.1s;
+
+        &:hover{
+            color: white;
+            background: $color;
+        }
+    }
 }

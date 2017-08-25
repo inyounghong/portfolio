@@ -1,7 +1,8 @@
 @import "stylesheets/variables";
 @import "stylesheets/vendor/bootstrap";
-// @import "stylesheets/vendor/font-awesome/scss/font-awesome";
+@import "stylesheets/vendor/font-awesome/scss/font-awesome";
 @import "common/common";
+@import "components/contact/contact";
 @import "components/resume/resume";
 @import "components/about/about";
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800|Source+Sans+Pro:400,600,700');
@@ -72,5 +73,5 @@ h1 {
     margin-bottom: 20px;
     // text-transform: uppercase;
     letter-spacing: 1px;
-    color: $color;
+    color: #444;
 }
