@@ -24,6 +24,7 @@ class HomeController {
             // },
         	{
         		"name": "SimplyDevio.us",
+                "id": "simply-devious",
                 "preview_image": "simplydevious.png",
                 "slug": "My AngularJS-based platform for selling CSS themes and widgets for DeviantART.com. Allows non-coders the ability to easily create and purchase their own themes.",
         		"description": "Simply Devio.us is a website I built to serve as a platform for selling CSS themes and widgets for DeviantART.com. This site allows users without any coding or design experience to easily create their own CSS skins and themes for DeviantART.com. <br><br> One of the greatest challenges of this project was providing enough functionality without overwhelming the user, who was expected to not have any experience with HTML or CSS. The first iteration of this site began in 2013 and was written in HTML/CSS/JS. Over the next few years, user feedback was used to continuously update the design to make the user experience as intuitive as possible. In addition, PHP was later incorporated for templating, jQuery replaced most JS, and SCSS was used to simplify styling. Now in 2016, I am working on reorganizing the site with AngularJS to make scaling easier, as well as adding backend with MySQL to allow users to save, edit, and share their designs.",
@@ -34,6 +35,7 @@ class HomeController {
         	},
             {
         		"name": "Interactive Ranking Chart for Produce 101",
+                "id": "interactive-ranking-chart-produce-101",
                 "preview_image": "produce.jpg",
                 "slug": "An interactive visualization built with d3.js to track rankings over time in a highly popular Korean idol survival show.",
         		"description": "VirusClicker is a time-wasting clicking game inspired by the infamous Cookie Clicker. Click on the virus to infect people, and then buy extra spokes for your virus to infect even more people. <br><br>Project was a quick study in AngularJS.",
@@ -136,9 +138,6 @@ class HomeController {
         	// 	"img": "virtuoso.jpg"
         	// }
         ]
-
-        console.log(this);
-        console.log(this.experiences);
     }
 }
 

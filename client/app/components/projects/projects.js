@@ -7,12 +7,12 @@ let projectsModule = angular.module('projects', [
 ])
 
 .config(($stateProvider) => {
-  "ngInject";
-  $stateProvider
+    "ngInject";
+    $stateProvider
     .state('projects', {
-      url: '/projects',
-      component: 'projects'
-    });
+        url: '/projects',
+        component: 'projects',
+    })
 })
 
 .component('projects', projectsComponent)
