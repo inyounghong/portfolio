@@ -18,7 +18,8 @@ module.exports = {
        { test: /\.(scss|sass)$/, loader: 'style!css?sourceMap!resolve-url?sourceMap!sass?outputStyle=expanded&sourceMap=true&sourceMapContents=true' },
        { test: /\.css$/, loader: 'style!css' },
        { test: /\.(jpg|png|svg)$/, loader: 'file-loader?name=assets/[name].[hash].[ext]'},
-       { test: /\.(png|woff|woff2|eot|ttf|svg)$/, loader: 'url-loader?limit=100000' }
+       { test: /\.(png|woff|woff2|eot|ttf|svg)$/, loader: 'url-loader?limit=100000' },
+       { test: /\.json$/, loader: 'json' },
     ]
   },
   plugins: [
@@ -32,9 +33,14 @@ module.exports = {
     }),
 
     new CopyWebpackPlugin([{
-    from: path.resolve(__dirname, 'client/app/images'),
-    to: 'images'
-  }]),
+        from: path.resolve(__dirname, 'client/app/images'),
+        to: 'images'
+    }]),
+
+    new CopyWebpackPlugin([{
+        from: path.resolve(__dirname, 'client/app/data'),
+        to: 'data'
+    }]),
 
     // Automatically move all modules defined outside of application directory to vendor bundle.
     // If you are using more complicated project structure, consider to specify common chunks manually.
