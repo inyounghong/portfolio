@@ -1,4 +1,5 @@
-[{
+{
+	"simply-devious": {
 		"name": "SimplyDevio.us",
 		"id": "simply-devious",
 		"preview_image": "simplydevious.png",
@@ -9,9 +10,9 @@
 		"img": "simplydevious.jpg",
 		"img2": "simplydevious2.png"
 	},
-	{
+	"interactive-ranking": {
 		"name": "Interactive Ranking Chart for Produce 101",
-		"id": "interactive-ranking-chart-produce-101",
+		"id": "interactive-ranking",
 		"preview_image": "produce.jpg",
 		"slug": "An interactive visualization built with d3.js to track rankings over time in a highly popular Korean idol survival show.",
 		"description": "VirusClicker is a time-wasting clicking game inspired by the infamous Cookie Clicker. Click on the virus to infect people, and then buy extra spokes for your virus to infect even more people. <br><br>Project was a quick study in AngularJS.",
@@ -20,8 +21,9 @@
 		"url": "http://www.simplydevio.us/VirusClicker/",
 		"img": "virusclicker.jpg"
 	},
-	{
+	"language-learning": {
 		"name": "Full-stack Language-Learning Website",
+		"id": "language-learning",
 		"preview_image": "translation.gif",
 		"slug": "Making learning languages easier by providing instant, inline translations for foreign texts and saving your most frequently translated words. Made in MeteorJS.",
 		"description": "This project was an effort to make language learning made easier by providing instant, inline translations for foreign texts. Users can create an account and upload texts to read or browse other texts uploaded by others. Clicking on a word in a text sends an AJAX request to the Yandex translation API and displays a translation above to the word, allowing for a smooth and seamless reading experience. <br><br> All translated words are recorded for the user to later review, edit with a custom translation, or delete. A flashcard function is provided to help users learn any words that haven't been marked as learned. <br><br> This project was a study in Meteor.js and database design. Project inspired by the difficulty of German class.",
@@ -31,8 +33,9 @@
 		"github": "https://github.com/inyounghong/translationapp",
 		"img2": "translationapp2.gif"
 	},
-	{
+	"wanna": {
 		"name": "Wanna+",
+		"id": "wanna",
 		"preview_image": "wanna.gif",
 		"slug": "A beautiful, user-friendly online 'Want to Do' list for organizing, prioritizing, and accomplishing all those things you never quite got around to doing.",
 		"work": "Personal Project",
@@ -42,8 +45,9 @@
 		"img": "wanna.gif",
 		"img2": "wanna2.gif"
 	},
-	{
+	"cu-change": {
 		"name": "CU Change",
+		"id": "cu-change",
 		"preview_image": "cuchange.png",
 		"slug": "A full-stack, reddit-style forum for Cornell University students to suggest and vote on issues to bring to the attention of Student Assembly. Built with MeteorJS.",
 		"description": "CUChange is a reddit-style forum for students to be able to voice their concerns for Cornell's Student Assembly (SA). The problem was that inspired this project was two-fold: students had no organized way of sending in suggestions, and the SA had no way of knowing the problems that the students felt most passionate about.<br><br> CUChange is an online forum that allows anyone with a Cornell email to post suggestions, upvotes suggestions they support, or comment to start discussions about suggestions. Posts are categorized into the various committees of SA to allow each representative to focus on the issues that directly concern them, and posts can be filtered by most popular, newest, or oldest. Admins of the website can mark posts with different statuses, such as open, in progress, or resolved to update students on the status of their posts.<br><br> Made with MeteorJS during the 24-hour Random Hacks of Kindness hackathon.",
@@ -53,8 +57,9 @@
 		"github": "https://github.com/inyounghong/walrus",
 		"img2": "cuchange1.png"
 	},
-	{
+	"sri-rice": {
 		"name": "SRI-Rice Redesign",
+		"id": "sri-rice",
 		"preview_image": "sririce.png",
 		"slug": "Complete website redesign for Cornell University's SRI International Network and Resources Center (SRI-Rice)",
 		"description": "SRI-Rice is an organization at Cornell's College of Agriculture and Life Sciences that is dedicated to spreading knowledge and resources for the System of Rice Intensification (SRI) method, which allows farmers to grow more rice with far less inputs. <br><br> This project involved distilling the the organization's main ideas from an older and cluttered website and presenting them in a new, concise, and professional website. Worked closely with the client to determine design needs and strategies. Designed detailed wireframes and mock-ups, iterated upon them, and finally implemented them with HTML5, SASS, Bootstrap, PHP. Ensured that the website is fully responsive so it will be able to be viewed across multiple devices and in areas of the world with low bandwidth connection.",
@@ -63,8 +68,9 @@
 		"github": "https://github.com/inyounghong/SRI",
 		"img": "sri.png"
 	},
-	{
-		"name": "BelleAppss",
+	"belle-apps": {
+		"name": "BelleApps",
+		"id": "belle-apps",
 		"preview_image": "belleapps.png",
 		"slug": "Full-stack web work and graphic design for Belleapps, a startup for peer-to-peer food delivery service.",
 		"work": "Cornell Startup",
@@ -73,8 +79,9 @@
 		"url": "http://www.belleapps.me/",
 		"img": "belleapps.jpg"
 	},
-	{
+	"wicc": {
 		"name": "Women in Computing at Cornell",
+		"id": "wicc",
 		"preview_image": "wicc.jpg",
 		"slug": "Complete website redesign for Women in Computing at Cornell.",
 		"work": "Work",
@@ -84,8 +91,9 @@
 		"github": "https://github.com/inyounghong/wicc",
 		"img": "prev_wicc.jpg"
 	},
-	{
+	"fiberspark": {
 		"name": "Fiberspark Redesign",
+		"id": "fiberspark",
 		"preview_image": "fiberspark.png",
 		"slug": "Complete website redesign, involving rebranding and new graphics.",
 		"work": "Cornell Startup",
@@ -94,8 +102,9 @@
 		"url": "http://www.fiberspark.com/",
 		"img": "fiberspark.jpg"
 	},
-	{
+	"virus-clicker": {
 		"name": "VirusClicker Game",
+		"id": "virus-clicker",
 		"preview_image": "virusclicker.jpg",
 		"slug": "A time-wasting clicking game inspired by the infamous Cookie Clicker. A quick study in AngularJS.",
 		"description": "VirusClicker is a time-wasting clicking game inspired by the infamous Cookie Clicker. Click on the virus to infect people, and then buy extra spokes for your virus to infect even more people. <br><br>Project was a quick study in AngularJS.",
@@ -104,4 +113,4 @@
 		"url": "http://www.simplydevio.us/VirusClicker/",
 		"img": "virusclicker.jpg"
 	}
-]
+}

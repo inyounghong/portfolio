@@ -1,9 +1,13 @@
+import projects from './../../data/projects.json';
+
 class DetailController {
-    constructor($stateParams) {
+    constructor($stateParams, $location) {
         this.name = 'detail';
-        console.log($stateParams.projectId);
         this.projectId = $stateParams.projectId;
+        this.imagePath = $location.absUrl().split('/').slice(0, 3).join("/") + "/images/" + $stateParams.projectId + "/";
+
+        console.log(projects[this.projectId]);
     }
 }
-DetailController.$inject = ["$stateParams"];
+DetailController.$inject = ["$stateParams", "$location"];
 export default DetailController;

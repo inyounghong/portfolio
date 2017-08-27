@@ -38,6 +38,11 @@ module.exports = {
     }]),
 
     new CopyWebpackPlugin([{
+        from: path.resolve(__dirname, 'client/app/pages'),
+        to: 'pages'
+    }]),
+
+    new CopyWebpackPlugin([{
         from: path.resolve(__dirname, 'client/app/data'),
         to: 'data'
     }]),

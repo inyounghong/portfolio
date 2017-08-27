@@ -1,7 +1,6 @@
 import angular from 'angular';
 import uiRouter from 'angular-ui-router';
 import detailComponent from './detail.component';
-import simplyDevious from './../../pages/simply-devious.html';
 
 let detailModule = angular.module('detail', [
   uiRouter
@@ -12,12 +11,7 @@ let detailModule = angular.module('detail', [
     $stateProvider
     .state('detail', {
         url: "/projects/:projectId",
-        template: function($stateProvider) {
-            switch($stateProvider.projectId) {
-                case "simply-devious":
-                    return simplyDevious;
-            }
-        },
+        component: 'detail'
     })
 })
 
