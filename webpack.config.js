@@ -20,6 +20,7 @@ module.exports = {
        { test: /\.(jpg|png|svg)$/, loader: 'file-loader?name=assets/[name].[hash].[ext]'},
        { test: /\.(png|woff|woff2|eot|ttf|svg)$/, loader: 'url-loader?limit=100000' },
        { test: /\.json$/, loader: 'json' },
+       { test: /\.md$/, loader: "html-loader!markdown-loader?gfm=false" },
     ]
   },
   plugins: [
