@@ -10,15 +10,14 @@
 		"img": "simplydevious.jpg",
 		"img2": "simplydevious2.png"
 	},
-	"interactive-ranking": {
-		"name": "Interactive Ranking Chart for Produce 101",
-		"id": "interactive-ranking",
-		"preview_image": "produce.jpg",
-		"slug": "An interactive visualization built with d3.js to track rankings over time in a highly popular Korean idol survival show.",
-		"github": "https://github.com/p101s2/p101s2.github.io",
+	"react-kanban": {
+		"name": "ReactJS Kanban App",
+		"id": "react-kanban",
+		"preview_image": "react-kanban.png",
+		"slug": "A drag-and-drop Kanban/Task-Managing app built with ReactJS, Redux, and SASS.",
+		"github": "https://github.com/inyounghong/kanban-react",
 		"tags": ["d3.js", "JS/jQuery", "HTML5/CSS3", "Design"],
-		"technologies": ["d3.js", "Javascript/jQuery", "Bootstrap"],
-		"url": "https://p101s2.github.io"
+		"technologies": ["ReactJS", "Redux", "Javascript/jQuery", "SASS", "Bootstrap"]
 	},
 	"language-learning": {
 		"name": "Full-stack Language-Learning Website",
@@ -29,8 +28,7 @@
 		"tags": ["Meteor.js", "APIs", "JS/jQuery", "MongoDB", "Bootstrap", "HTML5/CSS3"],
 		"url": "http://translationapp.meteor.com/",
 		"img": "translationapp.gif",
-		"github": "https://github.com/inyounghong/translationapp",
-		"img2": "translationapp2.gif"
+		"github": "https://github.com/inyounghong/translationapp"
 	},
 	"wanna": {
 		"name": "Wanna+",
@@ -42,6 +40,16 @@
 		"tags": ["JS/jQuery", "Design", "HTML5/CSS3", "SASS"],
 		"url": "http://www.simplydevio.us/work/wanna/",
 		"github": "https://github.com/inyounghong/wanna"
+	},
+	"interactive-ranking": {
+		"name": "Interactive Ranking Chart for Produce 101",
+		"id": "interactive-ranking",
+		"preview_image": "produce.jpg",
+		"slug": "An interactive visualization built with d3.js to track rankings over time in a highly popular Korean idol survival show.",
+		"github": "https://github.com/p101s2/p101s2.github.io",
+		"tags": ["d3.js", "JS/jQuery", "HTML5/CSS3", "Design"],
+		"technologies": ["d3.js", "Javascript/jQuery", "Bootstrap"],
+		"url": "https://p101s2.github.io"
 	},
 	"cu-change": {
 		"name": "CU Change",
