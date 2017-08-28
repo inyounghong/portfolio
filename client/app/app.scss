@@ -81,4 +81,9 @@ ul {
         max-width: 100%;
         margin: 10px 0;
     }
+
+    a {
+        color: $color;
+        transition: all 0.1s;
+    }
 }

@@ -2,7 +2,10 @@
 .experience {
     position: relative;
     background: #fff;
-    margin: 60px 0;
+    margin: 30px 0;
+    padding: 30px 30px 25px;
+    border: 1px solid #eee;
+    line-height: 1.4em;
 
     li {
         margin: 5px 0;
@@ -10,11 +13,12 @@
 
     .image {
         position:absolute;
-        top: 0px;
-        left: 0px;
+        top: 30px;
+        left: 30px;
         max-width: 100px;
         img {
             max-width: 100%;
+            margin: 0 !important;
         }
     }
 
