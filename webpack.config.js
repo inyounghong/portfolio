@@ -37,15 +37,18 @@ module.exports = {
         from: path.resolve(__dirname, 'client/app/images'),
         to: 'images'
     }]),
-
     new CopyWebpackPlugin([{
         from: path.resolve(__dirname, 'client/app/pages'),
         to: 'pages'
     }]),
-
     new CopyWebpackPlugin([{
-        from: path.resolve(__dirname, 'client/app/data'),
-        to: 'data'
+        from: path.resolve(__dirname, 'client/CNAME.txt'),
+        to: 'CNAME',
+        toType: 'file'
+    }]),
+    new CopyWebpackPlugin([{
+        from: path.resolve(__dirname, 'client/app/images'),
+        to: 'images'
     }]),
 
     // Automatically move all modules defined outside of application directory to vendor bundle.
