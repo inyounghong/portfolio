@@ -87,3 +87,13 @@ ul {
         transition: all 0.1s;
     }
 }
+
+@media only screen and (max-width: 900px) {
+    .sidebar {
+        left: -300px;
+    }
+
+    .main {
+        margin-left: 0;
+    }
+}

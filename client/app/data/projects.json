@@ -19,6 +19,16 @@
 		"tags": ["d3.js", "JS/jQuery", "HTML5/CSS3", "Design"],
 		"technologies": ["ReactJS", "Redux", "Javascript/jQuery", "SASS", "Bootstrap"]
 	},
+	"interactive-ranking": {
+		"name": "Interactive Ranking Chart for Produce 101",
+		"id": "interactive-ranking",
+		"preview_image": "produce.jpg",
+		"slug": "An interactive visualization built with d3.js to track rankings over time in a highly popular Korean idol survival show.",
+		"github": "https://github.com/p101s2/p101s2.github.io",
+		"tags": ["d3.js", "JS/jQuery", "HTML5/CSS3", "Design"],
+		"technologies": ["d3.js", "Javascript/jQuery", "Bootstrap"],
+		"url": "https://p101s2.github.io"
+	},
 	"language-learning": {
 		"name": "Full-stack Language-Learning Website",
 		"id": "language-learning",
@@ -40,16 +50,6 @@
 		"tags": ["JS/jQuery", "Design", "HTML5/CSS3", "SASS"],
 		"url": "http://www.simplydevio.us/work/wanna/",
 		"github": "https://github.com/inyounghong/wanna"
-	},
-	"interactive-ranking": {
-		"name": "Interactive Ranking Chart for Produce 101",
-		"id": "interactive-ranking",
-		"preview_image": "produce.jpg",
-		"slug": "An interactive visualization built with d3.js to track rankings over time in a highly popular Korean idol survival show.",
-		"github": "https://github.com/p101s2/p101s2.github.io",
-		"tags": ["d3.js", "JS/jQuery", "HTML5/CSS3", "Design"],
-		"technologies": ["d3.js", "Javascript/jQuery", "Bootstrap"],
-		"url": "https://p101s2.github.io"
 	},
 	"cu-change": {
 		"name": "CU Change",
@@ -73,6 +73,18 @@
 		"url": "http://simplydevio.us/work/sri/",
 		"github": "https://github.com/inyounghong/SRI",
 		"img": "sri.png"
+	},
+	"virus-clicker": {
+		"name": "VirusClicker Game",
+		"id": "virus-clicker",
+		"preview_image": "virusclicker.jpg",
+		"slug": "A time-wasting clicking game inspired by the infamous Cookie Clicker. A quick study in AngularJS.",
+		"description": "VirusClicker is a time-wasting clicking game inspired by the infamous Cookie Clicker. Click on the virus to infect people, and then buy extra spokes for your virus to infect even more people. <br><br>Project was a quick study in AngularJS.",
+		"github": "https://github.com/inyounghong/VirusClicker",
+		"tags": ["AngularJS", "JS/jQuery", "HTML5/CSS3", "Design"],
+		"technologies": ["AngularJS", "Javascript/jQuery", "HTML5/CSS3"],
+		"url": "http://www.simplydevio.us/work/VirusClicker/",
+		"img": "virusclicker.jpg"
 	},
 	"belle-apps": {
 		"name": "BelleApps",
@@ -108,17 +120,5 @@
 		"tags": ["HTML5/CSS3", "Design", "JS/jQuery", "Responsiveness"],
 		"url": "http://www.fiberspark.com/",
 		"img": "fiberspark.jpg"
-	},
-	"virus-clicker": {
-		"name": "VirusClicker Game",
-		"id": "virus-clicker",
-		"preview_image": "virusclicker.jpg",
-		"slug": "A time-wasting clicking game inspired by the infamous Cookie Clicker. A quick study in AngularJS.",
-		"description": "VirusClicker is a time-wasting clicking game inspired by the infamous Cookie Clicker. Click on the virus to infect people, and then buy extra spokes for your virus to infect even more people. <br><br>Project was a quick study in AngularJS.",
-		"github": "https://github.com/inyounghong/VirusClicker",
-		"tags": ["AngularJS", "JS/jQuery", "HTML5/CSS3", "Design"],
-		"technologies": ["AngularJS", "Javascript/jQuery", "HTML5/CSS3"],
-		"url": "http://www.simplydevio.us/work/VirusClicker/",
-		"img": "virusclicker.jpg"
 	}
 }

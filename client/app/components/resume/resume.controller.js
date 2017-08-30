@@ -23,7 +23,7 @@ class ResumeController {
             description: [
                 "Helped migrate the legacy Relationship Care portal written in .NET from vanilla Javascript to AngularJS.",
                 "Developed RESTful web application widgets using Java Spring MVC, AngularJS, and SASS.",
-                "Tested and documented user exeperience problems in the Relationship Care portal and formulated alternative solutions."
+                "Tested and documented user experience problems in the Relationship Care portal and formulated alternative solutions."
             ],
             image: "amex-logo.png",
         },

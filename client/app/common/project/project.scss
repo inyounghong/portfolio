@@ -7,9 +7,22 @@
         display: none;
     }
 
-    .project {
+    .project{
         cursor: pointer;
         border: 1px solid #eee;
+        width: 32%;
+
+        @media only screen and (max-width: 1100px) {
+            width: 49%;
+        }
+
+        @media only screen and (max-width: 500px) {
+            width: 100%;
+        }
+    }
+
+    .empty {
+        width: 32%;
     }
 
     .details {
@@ -17,12 +30,10 @@
     }
 }
 
+// Shared between project and projectLarge
+
 .project {
-
-    width: 32%;
     background: white;
-    // box-shadow: 0px 0px 3px #ccc;
-
     margin-bottom: 40px;
     position: relative;
     display: block;
