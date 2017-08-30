@@ -9,7 +9,7 @@ class DetailController {
         this.projectId = id;
         this.project = projects[id];
         this.imagePath = "./images/" + id;
-        this.includePath = '../../../pages/' + id + '.md';
+        this.includePath = '../../../pages/' + id + '.html';
 
     }
 }
