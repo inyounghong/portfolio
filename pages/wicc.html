@@ -1,12 +1,12 @@
 <ul class="outline" fa-ul>
-    <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#design">Design Journey</a>
+    <li><a href="{{$ctrl.path}}#introduction">Introduction</a></li>
+    <li><a href="{{$ctrl.path}}#design">Design Journey</a>
         <ul>
-            <li><a href="#audience">Audience</a></li>
-            <li><a href="#design-needs">Design Needs and Solutions</a></li>
+            <li><a href="{{$ctrl.path}}#audience">Audience</a></li>
+            <li><a href="{{$ctrl.path}}#design-needs">Design Needs and Solutions</a></li>
         </ul>
     </li>
-    <li ng-show={{$ctrl.project.technologies}}><a href="#technologies">Technologies</a></li>
+    <li ng-show={{$ctrl.project.technologies}}><a href="{{$ctrl.path}}#technologies">Technologies</a></li>
     <!-- <li><a href="#background">Background</a></li>
     <li><a href="#objectives">Objectives</a></li>
     <li><a href="#development">Development</a></li> -->
