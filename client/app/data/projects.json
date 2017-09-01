@@ -16,7 +16,7 @@
 		"preview_image": "react-kanban.png",
 		"slug": "A drag-and-drop Kanban/Task-Managing app built with ReactJS, Redux, and SASS.",
 		"github": "https://github.com/inyounghong/kanban-react",
-		"tags": ["d3.js", "JS/jQuery", "HTML5/CSS3", "Design"],
+		"tags": ["ReactJS", "Redux", "JS/jQuery", "SASS", "Design"],
 		"technologies": ["ReactJS", "Redux", "Javascript/jQuery", "SASS", "Bootstrap"]
 	},
 	"interactive-ranking": {
@@ -92,7 +92,6 @@
 		"preview_image": "belleapps.png",
 		"slug": "Full-stack web work and graphic design for Belleapps, a startup for peer-to-peer food delivery service.",
 		"work": "Cornell Startup",
-		"description": "Belleapps is a Cornell-based startup that focuses on peer-to-peer food delivery service. Led a team to develop dynamic front-end designs and a web application from Photoshop mockups and wireframes. Integrated Bootstrap to create a fully responsive website. Designed icons and graphics for web and mobile. Used Git for version control.",
 		"tags": ["Design", "Bootstrap", "HTML5/CSS3", "JS/jQuery", "PHP", "Git", "Responsiveness"],
 		"url": "http://www.belleapps.me/",
 		"img": "belleapps.jpg"
@@ -104,21 +103,27 @@
 		"slug": "Complete website redesign for Women in Computing at Cornell.",
 		"work": "Work",
 		"description": "WICC is a club at Cornell that aims to empower and support women in computing fields. This project involved completely redesigning an existing website for a more professional and visually-pleasing appearance. Developed a new website architecture to better organize existing content and revamp the way visitors traveled through the site. Used HTML, SASS, Bootstrap, Javascript/jQuery, PHP, Git.",
-		"tags": ["Design", "HTML5/CSS3", "SASS", "Responsiveness"],
-		"technologies": ["Javascript/jQuery", "PHP", "SASS", "Bootstrap"],
+		"tags": ["HTML5/CSS3", "SASS", "Bootstrap", "JS/jQuery", "Git"],
+		"technologies": ["Javascript/jQuery", "SASS", "Bootstrap", "Git"],
 		"url": "http://wicc.acm.org/index.php",
-		"github": "https://github.com/inyounghong/wicc",
-		"img": "prev_wicc.jpg"
+		"github": "https://github.com/inyounghong/wicc"
 	},
 	"fiberspark": {
 		"name": "Fiberspark Redesign",
 		"id": "fiberspark",
 		"preview_image": "fiberspark.png",
 		"slug": "Complete website redesign, involving rebranding and new graphics.",
-		"work": "Cornell Startup",
-		"description": "Fiberspark is a Cornell-based startup that offers the fastest and most reliable fiber optic internet in Ithaca.<br><br> This project involved designing a website from scratch, with an emphasis on clean and clear design. Designed new graphics and rebranded logo.",
-		"tags": ["HTML5/CSS3", "Design", "JS/jQuery", "Responsiveness"],
-		"url": "http://www.fiberspark.com/",
-		"img": "fiberspark.jpg"
+		"tags": ["HTML5/CSS3", "Design", "JS/jQuery"],
+		"url": "http://www.fiberspark.com/"
+	},
+	"portfolio": {
+		"name": "Portfolio Redesign",
+		"id": "portfolio",
+		"preview_image": "portfolio.png",
+		"slug": "About this portfolio and its redesign over the years.",
+		"tags": ["AngularJS", "ES6", "Webpack", "HTML5/CSS3", "SASS", "JS/jQuery", "Bootstrap", "Git", "Design", "Github Pages"],
+		"technologies": ["AngularJS", "ES6", "Webpack", "SASS", "JS/jQuery", "Bootstrap", "Git", "Github Pages"],
+		"url": "http://www.inyoung.me",
+		"github": "https://github.com/inyounghong/portfolio"
 	}
 }

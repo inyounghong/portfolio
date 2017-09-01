@@ -21,8 +21,8 @@ class ResumeController {
             location: "Sunrise, FL",
             title: "Software Engineer Intern",
             description: [
-                "Helped migrate the legacy Relationship Care portal written in .NET from vanilla Javascript to AngularJS.",
-                "Developed RESTful web application widgets using Java Spring MVC, AngularJS, and SASS.",
+                "Migrated a .NET-based portal from vanilla Javascript to AngularJS components.",
+                "Developed RESTful web applications using Java Spring MVC, AngularJS, and SASS.",
                 "Tested and documented user experience problems in the Relationship Care portal and formulated alternative solutions."
             ],
             image: "amex-logo.png",
