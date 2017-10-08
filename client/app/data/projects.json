@@ -40,6 +40,15 @@
 		"img": "translationapp.gif",
 		"github": "https://github.com/inyounghong/translationapp"
 	},
+	"othello": {
+		"name": "Genetic Optimization on Othello AI",
+		"id": "othello",
+		"preview_image": "othello.jpg",
+		"slug": "An exploration of the effectiveness of genetic optimation on various structures of Othello-playing AI.",
+		"github": "https://github.com/inyounghong/genetic-othello",
+		"tags": ["Java", "Artificial Intelligence"],
+		"technologies": ["Java"]
+	},
 	"wanna": {
 		"name": "Wanna+",
 		"id": "wanna",
